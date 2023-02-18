@@ -8,6 +8,6 @@
 
 ## Activity in Lucid:
 - create napkin diagram for an application
-![CrudderNapkinDiagram](CrudderNapkinDiagram.svg)
+![CrudderNapkinDiagram](images/CrudderNapkinDiagram.svg)
 
 
