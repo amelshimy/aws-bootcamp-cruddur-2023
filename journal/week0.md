@@ -69,13 +69,14 @@
     Default region name [None]: eu-west-1
     Default output format [None]: 
 
-    ![aws-conf-list](images/aws-access-key.png)
+  ![aws-conf-list](images/aws-access-key.png)
 
     For verification that credenciales work as expected, run next 
     ```
     aws sts get-caller-identity
     ```
-    ![AWS-cli proof](images/aws-proof-cli.png)
+  ![AWS-cli proof](images/aws-proof-cli.png)
+  
 
 
 
