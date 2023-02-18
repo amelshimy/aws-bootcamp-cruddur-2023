@@ -81,7 +81,7 @@
 4. Create a budget
   ![aws budget](images/aws-budget.png)
 
-5. Create an alarm 
+
 
 
 
