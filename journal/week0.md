@@ -78,7 +78,8 @@
     ```
   ![AWS-cli proof](images/aws-proof-cli.png)
   
-4. Create a budget
+## Create a budget
+create simple budget with 5€ only for practice.
   ![aws budget](images/aws-budget.png)
 
 
