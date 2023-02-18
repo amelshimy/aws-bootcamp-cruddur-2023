@@ -9,6 +9,7 @@
 
 ## Activity in Lucid:
 - create napkin diagram for an application
+[Lucid share link](https://lucid.app/lucidchart/ccb2587a-5f34-4b57-9154-c70c5a53e89a/edit?viewport_loc=200%2C-418%2C2507%2C1635%2C0_0&invitationId=inv_7de4b202-274c-41c9-81dd-cd6051e88670)
 ![CrudderNapkinDiagram](images/CrudderNapkinDiagram.svg)
 
 ## Install AWS cli 
@@ -77,6 +78,11 @@
     ```
   ![AWS-cli proof](images/aws-proof-cli.png)
   
+4. Create a budget
+  ![aws budget](images/aws-budget.png)
+
+5. Create an alarm 
+
 
 
 
