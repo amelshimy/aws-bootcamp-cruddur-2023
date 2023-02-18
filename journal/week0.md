@@ -1,4 +1,5 @@
-# AWS Cloud Project BootCamp Week 0 
+# AWS Cloud Project BootCamp 
+### Week 0 billing and architecture 
 
 ### Activities in AWS:
 - Create AWS account.
@@ -32,9 +33,12 @@
         ssh aws
         sudo dnf update -y 
         ```
+
 2. Install aws cli for linux
+
     [aws instruction page](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
     - download zip file 
+
     ``` 
     curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
     ```
@@ -53,7 +57,24 @@
     which aws
     ```
     ![Verify the installation](images/aws-install.png)
-    
 
+3. configure AWS account with awd-cli
+    - Create CLI access key 
+    ![Access key creation](images/access-key.png)
+    - Configure aws-cli with my credentiales 
+    ```
+    aws configure
+    AWS Access Key ID [None]: 
+    AWS Secret Access Key [None]: 
+    Default region name [None]: eu-west-1
+    Default output format [None]: 
+
+    ![aws-conf-list](images/aws-access-key.png)
+    For verification that credenciales work as expected, run next 
+    ```
+    aws sts get-caller-identity
+    ```
+    ![Proof aws cli working](images/aws-proof-cli.png)
+    
 
 
