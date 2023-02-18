@@ -70,12 +70,13 @@
     Default output format [None]: 
 
     ![aws-conf-list](images/aws-access-key.png)
+
     For verification that credenciales work as expected, run next 
     ```
     aws sts get-caller-identity
     ```
-    ![Proof-aws-cli-working](images/aws-proof-cli.png)
-    
+    ![AWS-cli proof](images/aws-proof-cli.png)
+
 
 
 
