@@ -74,7 +74,8 @@
     ```
     aws sts get-caller-identity
     ```
-    ![Proof aws cli working](images/aws-proof-cli.png)
+    ![Proof-aws-cli-working](images/aws-proof-cli.png)
     
+
 
 
