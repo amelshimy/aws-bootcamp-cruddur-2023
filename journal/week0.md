@@ -10,7 +10,7 @@
 ## Activity in Lucid:
 - create napkin diagram for an application
 [Lucid share link](https://lucid.app/lucidchart/ccb2587a-5f34-4b57-9154-c70c5a53e89a/edit?viewport_loc=200%2C-418%2C2507%2C1635%2C0_0&invitationId=inv_7de4b202-274c-41c9-81dd-cd6051e88670)
-![CrudderNapkinDiagram](images/CrudderNapkinDiagram.svg)
+![CrudderNapkinDiagram](images/week0-CrudderNapkinDiagram.svg)
 
 ## Install AWS cli 
 #### Prepare enviornment 
@@ -43,7 +43,7 @@
     ``` 
     curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
     ```
-    ![Curl command](images/curl-awscli-zip.png)
+    ![Curl command](images/week0-curl-awscli-zip.png)
     - Unzip the installer 
     ```
     unzip awscliv2.zip
@@ -57,11 +57,11 @@
     ```
     which aws
     ```
-    ![Verify the installation](images/aws-install.png)
+    ![Verify the installation](images/week0-aws-install.png)
 
 3. configure AWS account with awd-cli
     - Create CLI access key 
-    ![Access key creation](images/access-key.png)
+    ![Access key creation](images/week0-access-key.png)
     - Configure aws-cli with my credentiales 
     ```
     aws configure
@@ -70,17 +70,17 @@
     Default region name [None]: eu-west-1
     Default output format [None]: 
 
-  ![aws-conf-list](images/aws-access-key.png)
+  ![aws-conf-list](images/week0-aws-access-key.png)
 
     For verification that credenciales work as expected, run next 
     ```
     aws sts get-caller-identity
     ```
-  ![AWS-cli proof](images/aws-proof-cli.png)
+  ![AWS-cli proof](images/week0-aws-proof-cli.png)
   
 ## Create a budget
 create simple budget with 5€ only for practice.
-  ![aws budget](images/aws-budget.png)
+  ![aws budget](images/week0-aws-budget.png)
 
 
 
