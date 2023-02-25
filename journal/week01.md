@@ -82,3 +82,25 @@ podman version
 ```
 ![verification podman installation](images/week01-podman-version.png)
 
+#### Contranerize Backend Contaner #### 
+
+- Check python version
+```  python3 --version ```
+``` pip install flask ```
+``` pip install flask_cors ```
+
+- Run python Locally 
+
+```
+cd backend-flask
+export FRONTEND_URL="*"
+export BACKEND_URL="*"
+python3 -m flask run --host=0.0.0.0 --port=4567
+cd ..
+``` 
+- Verficate the resulte 
+http://IP:4567/api/activities/home
+
+![Get resulte from Backend locally](images/week01-python-locally.png)
+
+
