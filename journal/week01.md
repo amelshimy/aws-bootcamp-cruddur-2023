@@ -100,7 +100,7 @@ cd ..
 ``` 
 - Verficate the resulte 
 http://IP:4567/api/activities/home
-
 ![Get resulte from Backend locally](images/week01-python-locally.png)
 
+- Add Dockerfile 
 
