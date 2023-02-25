@@ -116,3 +116,24 @@ EXPOSE ${PORT}
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
 ```
 
+- Build backend-flask image
+> Edit Dockerfile & add Variable PORT 
+> ENV PORT=8080
+```
+podman build --tag  backend-flask ./backend-flask
+```
+
+- Run backend-flask container locally 
+```
+export FRONTEND_URL="*"
+export BACKEND_URL="*"
+podman run --rm -p 4567:4567 -it  -e FRONTEND_URL -e BACKEND_URL backend-flask
+```
+- Check backend-flask app 
+```
+curl -X GET http://localhost:4567/api/activities/home -H "Accept: application/json" -H "Content-Type: application/json"
+```
+> From browser access http://IP:4567/api/activities/home
+![Check running backend-flask container locally](images/week01-backend-locally.png)
+
+
