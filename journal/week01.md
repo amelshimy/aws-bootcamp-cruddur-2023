@@ -158,3 +158,16 @@ CMD ["npm", "start"]
 ```
 podman build --tag frontend-react-js ./frontend-react-js
 ```
+
+#### Run Multi conatainers ####
+As i work local in VM machine 
+> Edit docker-compose.yml file 
+> FRONTEND_URL: "http://localhost:3000"
+> BACKEND_URL: "http://localhost:4567"
+> REACT_APP_BACKEND_URL: "http://localhost:4567"
+
+``` 
+pip3 install podman-compose
+podman-compose up 
+```
+
