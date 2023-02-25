@@ -82,7 +82,7 @@ podman version
 ```
 ![verification podman installation](images/week01-podman-version.png)
 
-#### Contranerize Backend Contaner #### 
+#### Contranerize Backend Container #### 
 
 - Check python version
 ```  python3 --version ```
@@ -136,4 +136,25 @@ curl -X GET http://localhost:4567/api/activities/home -H "Accept: application/js
 > From browser access http://IP:4567/api/activities/home
 ![Check running backend-flask container locally](images/week01-backend-locally.png)
 
+#### Contranerize Fronend Container #### 
+stay in frontend-react-js directory
+``` cd frontend-react-js ```
 
+- Run installation NPM
+``` npm i ```
+
+- Create Frontend Dockerfile 
+```
+FROM node:16.18
+ENV PORT=3000
+COPY . /frontend-react-js
+WORKDIR /frontend-react-js
+RUN npm install
+EXPOSE ${PORT}
+CMD ["npm", "start"]
+```
+
+- Build Frontend image
+```
+podman build --tag frontend-react-js ./frontend-react-js
+```
